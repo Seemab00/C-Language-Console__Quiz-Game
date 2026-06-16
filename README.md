@@ -40,11 +40,13 @@ Default Password: `23236`
 
 ## 👤 Developer
 
-**Simaab Malik** (SAP ID: 54910)  
-BS Software Engineering, 1st Semester  
+**Simaab Malik**  
+SAP ID: 54910  
+BS Software Engineering  
 Riphah International University  
-**Supervisor**: Ma'am Sumera & Ma'am Nayab  
-**Date**: 26/12/2023
+**Supervisor**: Ma'am Sumera  
+**Co-Supervisor**: Ma'am Nayab  
+**Session**: Fall 2023 - 1st Sem
 
 ---
 
