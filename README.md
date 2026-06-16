@@ -39,28 +39,4 @@ Quiz Master Pro is a terminal-based quiz application developed in C++ that allow
 
 ---
 
-## ⚠️ Limitations
-
-- No file storage (data lost on exit)
-- Maximum 100 questions
-- Console-based only
-
----
-
-## 🔮 Future Enhancements
-
-- File handling for persistence
-- GUI implementation
-- Multiplayer support
-- Timer system
-- High score tracking
-
----
-
-## 📅 Submission
-
-December 26, 2023 | Programming Fundamentals Project
-
----
-
 *For complete documentation, refer to Project Proposal.pdf*
