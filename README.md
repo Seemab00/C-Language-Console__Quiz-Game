@@ -1,42 +1,72 @@
-# Quiz Master Pro
-
-A C++ console-based quiz game with full CRUD operations and interactive gameplay.
-
----
+# Cake Management System
 
 ## 📌 About
 
-Quiz Master Pro is a terminal-based quiz application developed in C++ that allows users to play quizzes across multiple topics while providing administrators with complete question management capabilities through CRUD operations.
+**Cake Management System** is a Java-based console application developed for the Object-Oriented Programming course. It enables bakeries to manage customer orders, cake inventory, and administrative operations through a command-line interface.
 
 ---
 
-## 🚀 Key Features
+## ✨ Features
 
-### Player Mode
-- 3 Topics: Riddles, Historical Figures, Animal World
-- 3 Difficulty Levels: Easy, Medium, Difficult
-- 2 Question Types: True/False & Multiple Choice
-- 5 questions per session with real-time scoring
-
-### Admin Mode
-- ➕ Add new questions
-- 📖 View all questions
-- ✏️ Update existing questions
-- 🗑️ Delete questions
-
-### Security
-- Password: `23236`
-- 3 login attempts limit
+- Customer registration & login
+- Place, view, update & delete orders
+- Admin dashboard for managing orders & customers
+- Three cake varieties: Chocolate, Vanilla & Strawberry
 
 ---
 
 ## 🛠️ Tech Stack
 
-- C++ (Console Application)
-- Modular Programming with Functions
-- Loops & Conditional Statements
-- Arrays for data storage
+- Java
+- OOP Concepts (Encapsulation, Inheritance, Polymorphism, Abstraction)
+- Collections (ArrayList)
+- Command-Line Interface
 
 ---
 
-*For complete documentation, refer to Project Proposal.pdf*
+## 🚀 Quick Start
+
+```
+javac ccakeordermanagementsystem/*.java
+java ccakeordermanagementsystem.CcakeOrderManagementSystem
+```
+
+---
+
+## 📁 Project Structure
+
+```
+CakeManagementSystem/
+├── CcakeOrderManagementSystem.java  # Main class
+├── Menu.java                        # Controller
+├── Admin.java                       # Admin entity
+├── Customer.java                    # Customer entity
+├── Order.java                       # Order entity
+├── Cake.java                        # Base class
+├── ChocolateCake.java               # Subclass
+├── VanillaCake.java                 # Subclass
+├── StrawberryCake.java              # Subclass
+├── Address.java                     # Address entity
+├── Person.java                      # Abstract class
+└── User.java                        # Interface
+```
+
+---
+
+## 👤 Developer
+
+**Simaab Malik** (SAP ID: 54910)  
+BS Software Engineering, 2nd Semester  
+Riphah International University  
+**Supervisor**: Ma'am Anum  
+**Date**: 03/06/2023
+
+---
+
+## 📄 License
+
+Educational Project - Object-Oriented Programming Course
+
+---
+
+*For complete details, refer to the project proposal.*
