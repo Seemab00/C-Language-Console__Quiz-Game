@@ -1,65 +1,94 @@
-****Quiz Master Pro - C++ Console Quiz Game**
+**Quiz Master Pro - C++ Console Quiz Game**
 
-**Project Overview****
+**Project Overview**
 Quiz Master Pro is a console-based quiz game developed in C++ as part of the Programming Fundamentals course. It demonstrates core programming concepts through an interactive gaming experience with administrative capabilities.
 
 ****Core Features**
 
 **1. Admin Panel****
-Add Questions: Create new quiz questions with options and answers
-View Questions: Display all stored questions
-Update Questions: Modify existing questions
-Delete Questions: Remove questions from database
+
+1. Add Questions: Create new quiz questions with options and answers
+
+2. View Questions: Display all stored questions
+
+3. Update Questions: Modify existing questions
+
+4. Delete Questions: Remove questions from database
 
 **2. Gameplay**
-3 Topics: Riddles, Historical Figures, Animal World
-3 Difficulty Levels: Easy, Medium, Difficult
-2 Question Types: True/False and Multiple Choice
-Scoring: Real-time score tracking with immediate feedback
-Session Length: 5 questions per game session
+
+1. Three Topics: Riddles, Historical Figures, Animal World
+
+2. Three Difficulty Levels: Easy, Medium, Difficult
+
+3. Two Question Types: True/False and Multiple Choice
+
+4. Scoring: Real-time score tracking with immediate feedback
+
+5. Session Length: 5 questions per game session
 
 **3. Security**
-Password-protected access (Password: 23236)
-Three login attempt limit
+
+1. Password-protected access (Password: 23236)
+
+2. Three login attempt limit
 
 **Technical Implementation**
-Key Programming Concepts
-Concept	Implementation
-CRUD Operations	Full question management
-Loops	do-while, while, for loops for menus and game flow
-Conditional Statements	if-else and switch-case for logic control
-Modular Programming	Functions for modularity and code reusability
+
+1. Key Programming Concepts
+
+2. Concept	Implementation
+
+3. CRUD Operations	Full question management
+
+4. Loops	do-while, while, for loops for menus and game flow
+
+5. Conditional Statements	if-else and switch-case for logic control
+
+6. Modular Programming	Functions for modularity and code reusability
 
 **Functions**
-ourdata() - Project information display
-menu() - Main navigation
-addQuestion() - Create operation
-displayQuestion() - Read operation
-updateQuestion() - Update operation
-deleteQuestion() - Delete operation
-playgame() - Core game logic
+
+**ourdata()** - Project information display, **menu()** - Main navigation, **addQuestion()** - Create operation, **displayQuestion()** - Read operation,
+**updateQuestion()** - Update operation, **deleteQuestion()** - Delete operation, **playgame()** - Core game logic.
 
 **System Requirements**
-C++ Compiler (GCC/MinGW/Visual Studio)
-Console/Terminal environment
-No external dependencies
+
+1. C++ Compiler (GCC/MinGW/Visual Studio)
+
+2. Console/Terminal environment
+
+3. No external dependencies
 
 **Limitations**
-No file persistence (data lost on program termination)
-Maximum 100 questions capacity
-Console interface (no GUI)
-Single-player only
-No time constraints per question
+
+1. No file persistence (data lost on program termination)
+
+2. Maximum 100 questions capacity
+
+3. Console interface (no GUI)
+
+4. Single-player only
+
+5. No time constraints per question
 
 **Future Scope**
-File handling for data persistence
-Graphical User Interface
-Multiplayer functionality
-Timer system
-Hint/lifeline features
-High score tracking
-Sound integration
-Expanded question database
+
+1. File handling for data persistence
+
+2. Graphical User Interface
+
+3. Multiplayer functionality
+
+4. Timer system
+
+5. Hint/lifeline features
+
+6. High score tracking
+
+7. Sound integration
+
+8. Expanded question database
 
 **Academic Context**
 This project was submitted on December 26, 2023, as a requirement for the Programming Fundamentals course, demonstrating practical application of core programming concepts.
